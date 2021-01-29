@@ -58,13 +58,16 @@ header a:hover {
 }
 
 .landing {
-  height: 91vh;
+  height: 94vh;
   background-color: #f9f7f7;
-  padding: 35px;
 }
 
 .landing .text {
   margin-top: 20vh;
+  color: #111;
+  padding: 35px;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 .landing h1 {
@@ -100,11 +103,30 @@ header a:hover {
   color: #dbe2ef;
 }
 
+.landing .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.landing .wrapper .photo {
+  background-image: url("pexels-pixabay-533157.jpg");
+  background-position: center;
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
 footer {
   color: #dbe2ef;
   background-color: #3f72af;
-  position: fixed;
-  width: 100vw;
+  position: static;
+  width: 100%;
   bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */

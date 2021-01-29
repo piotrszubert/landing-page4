@@ -55,12 +55,15 @@ header {
 }
 
 .landing {
-    height: 91vh;
+    height: 94vh;
     background-color: $primary-color;
-    padding: 35px;
-
+   
     .text {
         margin-top: 20vh;
+        color: #111;
+        padding: 35px;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }   
 
     h1{
@@ -94,13 +97,33 @@ header {
         background-color: $third-color;
         color: $second-color;
     }
+
+    .wrapper {
+        display: flex;
+        height: 100%;
+
+        .photo {
+            background-image: url("pexels-pixabay-533157.jpg");
+            background-position: center;
+            width: 50%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100%;
+            flex: 2;
+        }
+    }
+
+ 
+    
 }
+
+
 
 
 footer {
     color: $second-color;
     background-color: $third-color;
-    position: fixed;
-    width: 100vw;
+    position: static;
+    width: 100%;
     bottom: 0;
 }
