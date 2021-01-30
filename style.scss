@@ -32,6 +32,13 @@ header {
 
     .logo{
         margin-left: 10px;
+        font-weight: 800;
+        color: $second-color;
+        transition: 2s;
+    }
+
+    .logo-active {
+    transform: translateX(-150px);
     }
 
     ul {
@@ -112,14 +119,7 @@ header {
             flex: 2;
         }
     }
-
- 
-    
 }
-
-
-
-
 
 footer {
     color: $second-color;
@@ -128,7 +128,6 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
 
 @media screen and (max-width: 775px) {
     .landing {
@@ -149,5 +148,11 @@ footer {
 
     .photo {
         display: none;
+    }
+
+    header {
+        ul {
+            display: none;
+        }
     }
 }
