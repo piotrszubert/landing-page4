@@ -120,7 +120,7 @@ header a:hover {
 }
 
 .landing .wrapper .photo {
-  background-image: url("pexels-pixabay-533157(1).jpg");
+  background-image: url("photo.jpg");
   background-position: center;
   width: 50%;
   background-size: cover;
@@ -141,9 +141,9 @@ footer {
 
 @media screen and (max-width: 775px) {
   .landing {
-    background-image: url("pexels-pixabay-533157.jpg");
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.6))), url(pexels-pixabay-533157.jpg);
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(pexels-pixabay-533157.jpg);
+    background-image: url("photo.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.1)), to(rgba(0, 0, 0, 0.6))), url(photo.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.6) 100%), url(photo.jpg);
     background-size: cover;
   }
   .landing .text {
