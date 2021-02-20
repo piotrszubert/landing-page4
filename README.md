@@ -1,3 +1,3 @@
 # landing-page4
 
-[Live site](https://piotrszubert.github.io/landing-page4/index.html)
+[Live site](https://goofy-khorana-8d23d7.netlify.app)
